@@ -10,10 +10,10 @@ int main()
         printf("%d X %d =%d\n ",a,i,a*i);
     }
     printf("reverse table of %d is:\n",a);
-    for(i=10;i>=1;i++)
+    for(i=10;i>=1;i--)
     {
         printf("%d\t",a*i);
         printf("%d X %d =%d\n ",a,i,a*i);
     }
-    return 0;
+    return 0;    
 }
