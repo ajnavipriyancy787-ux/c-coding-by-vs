@@ -6,5 +6,9 @@ int main()
     {
         printf("%d\t",i);
     }
+    for(i=50;i>=1;i--)
+    {
+        printf("%d\t",i);
+    }
     return 0;
 }
