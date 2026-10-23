@@ -4,6 +4,7 @@ int main()
     int a,i;
     printf("enter no, you want table for:",a);
     scanf("%d",&a);
+    //i++ = i+1 can also be i+2,i+3,i+4 etc for 2,3,4 skips 
     for (i=1;i<=10;i++)
     {
         printf("%d\t",a*i);
